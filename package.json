@@ -1,0 +1,18 @@
+{
+  "name": "rock-papper-scissors",
+  "version": "1.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.6.2",
+    "@types/node": "^18.6.1",
+    "parcel": "^2.6.2"
+  },
+  "scripts": {
+    "dev": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html --dist-dir build --public-url /Mod5-Desafio-Rock-Papper-Scissors",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}

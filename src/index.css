@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "American Typewriter";
+
+  src: local("American Typewriter"),
+    url("./fonts/american-typewriter.otf") format("opentype"),
+    url("./fonts/american-typewriter.ttf") format("woff");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-image: url(./assets/fondo.png);
+  background-color: rgb(200, 207, 207);
+  font-family: "Odibee Sans";
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
