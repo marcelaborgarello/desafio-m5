@@ -5,10 +5,12 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build ./src/index.html --dist-dir build --public-url /desafio-modulo-5",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@types/node": "^18.11.9",
+    "gh-pages": "^4.0.0",
     "parcel": "^2.7.0"
   }
 }
