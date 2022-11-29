@@ -4,6 +4,8 @@ const piedra = require('../../assets/piedra.png');
 const papel = require('../../assets/papel.png');
 const tijera = require('../../assets/tijera.png');
 
+
+
 export function initPlay(params) {
   const div = document.createElement("div");
   div.classList.add("play");
@@ -118,6 +120,9 @@ export function initPlay(params) {
   const handStoneTop = div.querySelector(".stone-top") as Element;
   const handPaperTop = div.querySelector(".paper-top") as Element;
 
+  // console.log(handsChildren);
+  // console.log(div.querySelectorAll(".hands > img"));
+  
   
 
   for (const hands of handsChildren) {
